@@ -7,10 +7,15 @@
     <title>{{config('app_name','LARAPP')}}</title>
 
 </head>
-    <body>
+    <body class="pb-5">
     @include('inc.navbar')
-    <div class="container">
-        @yield('content')
-    </div>
+        <div class="container">
+            @include('inc.messages')
+            @yield('content')
+        </div>
+        <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace('article-ckeditor');
+        </script>
     </body>
 </html>

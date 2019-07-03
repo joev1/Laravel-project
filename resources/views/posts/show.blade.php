@@ -6,7 +6,7 @@
     <div class="card card-body bg-light">
         <h1>{{$post->title}}</h1>
         <div>
-            {{$post->body}}
+            {!! $post->body !!}
         </div>
     </div>
     <hr>

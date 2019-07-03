@@ -20,9 +20,12 @@
                     <a class="nav-link" href="/posts">Blog</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-            </form>
+{{--            <form class="form-inline my-2 my-md-0">--}}
+{{--                <input class="form-control" type="text" placeholder="Search" aria-label="Search">--}}
+{{--            </form>--}}
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="/posts/create">Create post</a></li>
+            </ul>
         </div>
     </div>
 </nav>
