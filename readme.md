@@ -2,3 +2,5 @@
 
 ## Laravel, Nginx, MySQL (TEST build)
 Just practising and having fun!
+
+Licensed under the [MIT Licence](LICENSE).
